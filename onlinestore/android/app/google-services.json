@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "324545748346",
+    "firebase_url": "https://online-store-flutter-d59c7.firebaseio.com",
+    "project_id": "online-store-flutter-d59c7",
+    "storage_bucket": "online-store-flutter-d59c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324545748346:android:1eac45d25c48d3966e0ac3",
+        "android_client_info": {
+          "package_name": "com.brunodegan.onlinestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324545748346-e85j8ruc18bjclkqeiqr4r9rps3663mi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.brunodegan.onlinestore",
+            "certificate_hash": "563e1d00d57dd0dddb12f04f77a9b9d6d25b96ad"
+          }
+        },
+        {
+          "client_id": "324545748346-nmk379vt1d3i1kuk4rqdifkf7dn69r53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL9HyuXHL28UI1ISTwviV4OQOkjtG_X5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324545748346-nmk379vt1d3i1kuk4rqdifkf7dn69r53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
