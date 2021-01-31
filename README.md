@@ -1,6 +1,6 @@
-# chatonlinefirebaseflutter
+# Chat Online
 
-Online chat with firebase + flutter sdk.
+Online chat with firebase + flutter.
 
 For building and deploying, new google-service.json is needed 
 to execute async calls to Firebase backend. Only source code is provided.
