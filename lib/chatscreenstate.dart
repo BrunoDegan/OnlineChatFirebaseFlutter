@@ -15,17 +15,16 @@ class ChatScreenState extends State<ChatOnlineScreen> {
             title: Text("Chat App"),
             centerTitle: true,
             elevation:
-            Theme.of(context).platform == TargetPlatform.iOS ? 0.0 : 4.0,
+                Theme.of(context).platform == TargetPlatform.iOS ? 0.0 : 4.0,
           ),
           body: Column(
             children: <Widget>[
               Expanded(
                 child: StreamBuilder(
                   stream: Firestore.instance.collection(messages).snapshots(),
+                  // ignore: missing_return
                   builder: (context, snapshot) {
-
-                    if(!snapshot.hasError) {
-
+                    if (!snapshot.hasError) {
                       switch (snapshot.connectionState) {
                         case ConnectionState.none:
                         case ConnectionState.waiting:
@@ -34,9 +33,8 @@ class ChatScreenState extends State<ChatOnlineScreen> {
                           return ListView.builder(
                               itemCount: snapshot.data.documents.length,
                               itemBuilder: (context, index) {
-
                                 List messageList =
-                                snapshot.data.documents.toList();
+                                    snapshot.data.documents.toList();
 
                                 messageList.sort((a, b) {
                                   var date1 = a['senderTime'];
